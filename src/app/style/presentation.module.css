@@ -1,0 +1,15 @@
+.bg_presentation{
+    background-image: url('../assets/bg-presentation/hands-holding-smartphone-social-media-concept\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (max-width:500px) {
+    .bg_presentation{
+        background-image: url('../assets/bg-presentation/hands-holding-smartphone-social-media-concept\ 1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+    }
+}
