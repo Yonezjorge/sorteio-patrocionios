@@ -51,12 +51,13 @@ export default function AvailableAccounts() {
             img: accout_4,
             secondary_img: accout_thumb_4
         },
-       {
+        {
             id: 5,
             alt:'imagem 5',
             img: accout_5,
             secondary_img: accout_thumb_5
         },
+      
         
     ]
     return (
