@@ -13,9 +13,6 @@ import accout_thumb_3 from '../assets/availableAccounts/imagePosCapa-3.jpeg'
 import accout_4 from '../assets/availableAccounts/imageCapa-4.jpeg'
 import accout_thumb_4 from '../assets/availableAccounts/imagePosCapa-4.jpeg'
 
-import accout_5 from '../assets/availableAccounts/imageCapa-5.png'
-import accout_thumb_5 from '../assets/availableAccounts/imagePosCapa-5.jpeg'
-   
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
@@ -51,13 +48,6 @@ export default function AvailableAccounts() {
             img: accout_4,
             secondary_img: accout_thumb_4
         },
-        {
-            id: 5,
-            alt:'imagem 5',
-            img: accout_5,
-            secondary_img: accout_thumb_5
-        },
-      
         
     ]
     return (
