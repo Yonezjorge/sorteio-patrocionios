@@ -37,13 +37,13 @@ export default function AvailableAccounts() {
             secondary_img: accout_thumb_2
         },
         {
-            id: 4,
+            id: 3,
             alt:'imagem 3',
             img: accout_3,
             secondary_img: accout_thumb_3
         },
         {
-            id: 5,
+            id: 4,
             alt:'imagem 4',
             img: accout_4,
             secondary_img: accout_thumb_4
