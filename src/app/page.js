@@ -15,10 +15,8 @@ export default function Home() {
   return (
     <>
       <InteractiveScroll />
-      <a href="https://api.whatsapp.com/send?phone=5581998141853" target="_blank">
-        <button className='bg-green-500 w-16 h-16 z-[999] fixed bottom-3 right-3 flex justify-center items-center rounded-full'>
+      <a className='bg-green-500 w-16 h-16 z-[999] fixed bottom-3 right-3 flex justify-center items-center rounded-full' href="https://api.whatsapp.com/send?phone=5581998141853" target="_blank">
           <FaWhatsapp className='text-white text-3xl' />
-        </button>
       </a>
       <Header />
       <Presentation />

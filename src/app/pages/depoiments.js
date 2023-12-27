@@ -99,12 +99,12 @@ export default function Depoiments() {
                                                     <FaStar className='text-yellow-200' />
                                                     <FaStar className='text-yellow-200' />
                                                 </div>
-                                                <p className='text-[#848484] text-xs'>{item.date}</p>
+                                                <p className='text-[#292828] text-xs'>{item.date}</p>
                                             </div>
                                         </div>
                                         <div className={`h-24  overflow-hidden ${item.description.length > 189 ? "myScroll overflow-y-scroll" : ""} `}>
                                             <hr className='my-1' />
-                                            <p className='text-[#848484] text-xs text-left '>{item.description}</p>
+                                            <p className='text-[#000000] text-xs text-left '>{item.description}</p>
                                         </div>
                                     </div>
                                 </SwiperSlide>
