@@ -98,10 +98,6 @@ export default function Faq() {
                             Nossa plataforma prioriza a segurança dos clientes. Todas as transações são realizadas de forma segura e protegida.
                             Utilizamos protocolos de segurança e métodos de pagamento confiáveis para garantir uma experiência tranquila para
                             nossos usuários.
-                            Nossa plataforma prioriza a segurança dos clientes. Todas as transações são realizadas de forma segura e protegida.
-                            Utilizamos protocolos de segurança e métodos de pagamento confiáveis para garantir uma experiência tranquila para
-                            nossos usuários.
-
                         </AccordionPanel>
                     </AccordionItem>
                     <AccordionItem className="border border-l-yellowDefault border-l-2 rounded-tr-md rounded-br-md my-4 py-4 p-3">
