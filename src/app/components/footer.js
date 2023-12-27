@@ -27,8 +27,8 @@ export default function Footer() {
                             <div className="flex flex-col items-start justify-start gap-3">
                                 <h1 className="font-bold md:text-2xl text-xl text-white">Formas de Pagamento</h1>
                                 <div className="flex flex-col items-center gap-2">
-                                    <Image src={security} width={300} />
-                                    <Image src={payFormat} width={300} />
+                                    <Image src={security} width={300} alt="segurança imagem"/>
+                                    <Image src={payFormat} width={300} alt="forma de pagamento"/>
                                 </div>
                             </div>
                         </div>
