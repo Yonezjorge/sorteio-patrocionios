@@ -10,8 +10,8 @@ export default function BuyWhitUs() {
                     <p className="md:text-base text-sm">Construir uma presença sólida com seguidores reais que não apenas acompanham, mas também se envolvem ativamente com o que você tem a oferecer.<span className="font-extrabold italic">+</span></p>
                 </div>
                 <div className="flex md:items-start justify-start items-center gap-4 md:flex-row flex-col  w-full rounded-2xl mt-6">
-                    <Image src={image_robot} className="md:flex hidden image_robot max-w-[250px] animatedOpacity" />
-                    <Image src={image_robot} className="md:hidden flex image_robot max-w-[250px] " />
+                    <Image alt="imagem_robo" src={image_robot} className="md:flex hidden image_robot max-w-[250px] animatedOpacity" />
+                    <Image alt="imagem_robo" src={image_robot} className="md:hidden flex image_robot max-w-[250px] " />
                     <div className="md:flex hidden border-b-2 w-2 h-72 bg-yellowDefault image_robot"></div>
                     <div className="grid grid-flow-row-dense md:grid-cols-2 md:items-start items-center  gap-5 ">
                         <div className="flex items-center gap-1 animatedElementUp">

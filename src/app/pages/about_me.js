@@ -8,7 +8,7 @@ export default function About_Me() {
             <div className='flex flex-col justify-center md:items-center '>
                 <div className='flex md:flex-row flex-col md:gap-10 md:items-start items-center'>
                     <div id='about' className='relative lg:h-[30rem] h-[20rem] '>
-                        <Image src={jorge} style={{ objectFit: 'cover', width: '100%', height: '100%' }} />
+                        <Image src={jorge} alt='image-jorge' style={{ objectFit: 'cover', width: '100%', height: '100%' }} />
                     </div>
                     <div className='flex flex-col max-w-[380px] w-full overflow-hidden items-start '>
                         {/* <h1 className='font-bold text-yellowDefault text-2xl '>Yonez Jorge</h1>

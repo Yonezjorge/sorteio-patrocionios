@@ -88,7 +88,7 @@ export default function Depoiments() {
                                     <div className='border p-4 rounded-2xl h-[12rem]'>
                                         <div className='flex flex-row items-start gap-1'>
                                             <div className='relative w-16 select-none '>
-                                                <Image objectFit='cover' height={230} width={230} src={item?.img} alt={`Imagem de ${item.name}`} className='rounded-full' />
+                                                <Image  objectFit='cover' height={230} width={230} src={item?.img} alt={`Imagem de ${item.name}`} className='rounded-full' />
                                             </div>
                                             <div className='flex flex-col items-start'>
                                                 <h2 className='text-xs select-none '>{item.name}</h2>

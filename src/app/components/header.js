@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import logo from '../assets/logo/Logo.svg'
 import style from '../style/header.module.css'
-import { useLayoutEffect, useState } from 'react'
+import {useState } from 'react'
 import ScrollToDiv from '@/utils/scrollIntoView'
 export default function Header() {
     const [menuOn, setMenuOn] = useState(false);

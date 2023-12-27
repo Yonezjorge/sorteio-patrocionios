@@ -8,7 +8,7 @@ export default function Footer() {
         <div id="contact" className="bg-[#252525]  md:mt-32 mt-20 md:px-0 px-5">
             <div className="px-2">
                 <div className="max-w-[950px]  py-10 m-auto flex md:flex-row flex-wrap md:justify-between justify-center items-center md:h-[20rem]">
-                    <Image src={logo} width={200} />
+                    <Image src={logo} width={200} alt="logo"/>
                     <div className="flex items-center justify-start gap-10 flex-wrap ">
                         <div className="flex flex-col md:items-start justify-center gap-3">
                             <h1 className="font-bold md:text-2xl text-xl text-white">Contato</h1>
